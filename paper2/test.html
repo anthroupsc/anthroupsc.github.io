@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>A Course on Anthropology</title>
+    <title>Tufte CSS</title>
     <link rel="stylesheet" href="tufte.css"/>
     <link rel="stylesheet" href="latex.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,20 +10,22 @@
 
   <body>
     <article>
-      <h1 id="document-opening">A Course on Anthropolgy</h1>
-      <p class="subtitle">Hashin Jithu</p>
+      <h1 id="tufte-css">Tufte CSS</h1>
+      <p class="subtitle">Dave Liepmann</p>
       <section>
-        <p>This website contains all the resources that I have collected in my journey with Anthropology so far. It will broadly follow the UPSC syllabus, but will also contain a few general topics that have caught my attention.</p>
-        <p>This site is maintained by <a href="http://www.hashin.me" target="_blank">Hashin Jithu</a> and is designed as an opensource project. It is hosted on Github pages and will be free forever. The site is designed based on the style adopted by Edward Tufte in his handouts.</p>
-        <p> The style is adopted from the <a href="https://github.com/edwardtufte/tufte-css" target="_blank">tufte-css project</a>. If you feel like contributing or sending any suggestions, you can <a href="mailto:mail@hashin.me?subject=AnthroUPSC%20Suggestions" target="_blank"> email me</a>.</p>
+        <p>Tufte CSS provides tools to style web articles using the ideas demonstrated by Edward Tufte’s books and handouts. Tufte’s style is known for its simplicity, extensive use of sidenotes, tight integration of graphics with text, and carefully chosen typography.</p>
+        <p>Tufte CSS was created by <a href="http://www.daveliepmann.com">Dave Liepmann</a> and is now an Edward Tufte project. The original idea was cribbed from <a href="https://tufte-latex.github.io/tufte-latex/">Tufte-<span class="latex">L<span class="latex-sup">a</span>T<span class="latex-sub">e</span>X</span></a> and <a href="http://rmarkdown.rstudio.com/tufte_handout_format.html">R Markdown’s Tufte Handout format</a>. We give hearty thanks to all the people who have contributed to those projects.</p>
+        <p>If you see anything that Tufte CSS could improve, we welcome your contribution in the form of an issue or pull request on the GitHub project: <a href="https://github.com/edwardtufte/tufte-css">tufte-css</a>. Please note the <a href="https://github.com/edwardtufte/tufte-css#contributing">contribution guidelines</a>.</p>
+        <p>Finally, a reminder about the goal of this project. The web is not print. Webpages are not books. Therefore, the goal of Tufte CSS is not to say “websites should look like this interpretation of Tufte’s books” but rather “here are some techniques Tufte developed that we’ve found useful in print; maybe you can find a way to make them useful on the web”. Tufte CSS is merely a sketch of one way to implement this particular set of ideas. It should be a starting point, not a design goal, because any project should present their information as best suits their particular circumstances.</p>
       </section>
 
       <section>
         <h2 id="getting-started">Getting Started</h2>
-        <p>This document outlines the contents of the course. Every topic will have page, that could be independently read. There will be resources, case studies and excerpts from answer copies that I have read. I will also add some general reading that could help understand the subject better.</p>
+        <p>To use Tufte CSS, copy <code>tufte.css</code> and the <code>et-book</code> directory of font files to your project directory, then add the following to your HTML document’s <code>head</code> block:</p>
 
-        <p>If you have read majority of your syllabus here and feels like contributing, you can <a href="mailto:mail@hashin.me?subject=AnthroUPSC%20Collaboration" target="_blank"> email me</a></p>
+        <pre><code>&lt;link rel="stylesheet" href="tufte.css"/&gt;</code></pre>
 
+        <p>Now you just have to use the provided CSS rules, and the Tufte CSS conventions described in this document. For best results, View Source and Inspect Element frequently.</p>
       </section>
 
       <section>
